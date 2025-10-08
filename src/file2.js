@@ -11,12 +11,12 @@ let x = 1;
 x =+ 2;
 
 // "NaN should not be used in comparisons"
-if (Number.isNaN(x)) {
+if (x === NaN) {
   console.log("x is NaN");
 }
 
 // "Wrapper objects should not be used for primitive types"
-let y = new Number("0");
+let y = Number("0");
 
 // "Array constructors should not be used"
 const arr4 = new Array(1, 2, 3);
