@@ -82,11 +82,14 @@ const anotherBoolean = !!(a > 1);
 throw "error";
 
 // "Template strings should be used instead of concatenation"
+const myString = "a is " + a;
+
+// "The global this object should not be used"
+console.log(this);
 
 // "All code should be reachable"
 function unreachable() {
     return;
-    console.log("unreachable");
 }
 
 // "Member names should not be duplicated within a class or object literal"
