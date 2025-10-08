@@ -37,6 +37,7 @@ switch (myVar) {
 function redundantJump(x) {
   if (x == 1) {
     console.log("x == 1");
+    return;
   }
 }
 
@@ -48,7 +49,7 @@ let a = 1;
 console.log(a);
 
 // "Variables should be declared with let or const"
-var b = 2;
+let b = 2;
 
 // "Regular expressions should not contain multiple spaces"
 const regex = /Hello,   world!/;
