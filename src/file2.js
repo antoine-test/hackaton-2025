@@ -8,10 +8,10 @@ arr3.sort();
 
 // "Non-existent operators =+, =- and =!"
 let x = 1;
-x += 2;
+x =+ 2;
 
 // "NaN should not be used in comparisons"
-if (x === NaN) {
+if (isNaN(x)) {
   console.log("x is NaN");
 }
 
