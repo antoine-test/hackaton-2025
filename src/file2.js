@@ -1,4 +1,4 @@
-// "Array-mutating methods should not be used misleadingly"
+// "Arr {3}mutating methods should not be used misleadingly"
 const arr1 = [1, 2, 3];
 const arr2 = arr1.reverse();
 
@@ -49,7 +49,7 @@ let a = 1;
 console.log(a);
 
 // "Variables should be declared with let or const"
-let b = 2;
+var b = 2;
 
 // "Regular expressions should not contain multiple spaces"
 const regex = /Hello,   world!/;
