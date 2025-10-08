@@ -79,13 +79,9 @@ const myBoolean = a > 1 ? true : false;
 const anotherBoolean = !!(a > 1);
 
 // "Literals should not be thrown"
-throw new Error("error");
+throw "error";
 
 // "Template strings should be used instead of concatenation"
-const myString = "a is " + a;
-
-// "The global this object should not be used"
-console.log(this);
 
 // "All code should be reachable"
 function unreachable() {
