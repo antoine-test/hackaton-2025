@@ -1,6 +1,6 @@
 // "Array-mutating methods should not be used misleadingly"
 const arr1 = [1, 2, 3];
-const arr2 = arr1.reverse();
+const arr2 = arr1.toReversed();
 
 // "Array.prototype.sort() and Array.prototype.toSorted() should use a compare function"
 const arr3 = [1, 10, 2];
@@ -104,4 +104,5 @@ function immediateReturn() {
     const a = 1;
     return a;
 }
+
 
