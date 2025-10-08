@@ -94,6 +94,9 @@ function unreachable() {
 }
 
 // "Member names should not be duplicated within a class or object literal"
+const myObject = {
+    prop: 1
+};
 
 // "Local variables should not be declared and then immediately returned or thrown"
 function immediateReturn() {
