@@ -73,10 +73,10 @@ class MyClass {
 let myUndefined = undefined;
 
 // "Ternary operator should not be used instead of simpler alternatives"
-const myBoolean = a > 1;
+const myBoolean = a > 1 ? true : false;
 
 // "Extra boolean casts should be removed"
-const anotherBoolean = !!(a > 1);
+const anotherBoolean = !(a <= 1);
 
 // "Literals should not be thrown"
 throw "error";
