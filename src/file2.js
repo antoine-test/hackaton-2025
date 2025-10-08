@@ -90,13 +90,10 @@ console.log(this);
 // "All code should be reachable"
 function unreachable() {
     return;
+    console.log("unreachable");
 }
 
 // "Member names should not be duplicated within a class or object literal"
-const myObject = {
-    prop: 1,
-    prop: 2
-};
 
 // "Local variables should not be declared and then immediately returned or thrown"
 function immediateReturn() {
