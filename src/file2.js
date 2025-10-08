@@ -70,10 +70,10 @@ class MyClass {
 }
 
 // "Variables should not be initialized to undefined"
-let myUndefined;
+let myUndefined = undefined;
 
 // "Ternary operator should not be used instead of simpler alternatives"
-const myBoolean = a > 1 ? true : false;
+const myBoolean = a > 1;
 
 // "Extra boolean casts should be removed"
 const anotherBoolean = !!(a > 1);
