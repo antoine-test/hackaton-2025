@@ -16,13 +16,13 @@ if (x === NaN) {
 }
 
 // "Wrapper objects should not be used for primitive types"
-let y = Number("0");
+let y = new Number("0");
 
 // "Array constructors should not be used"
 const arr4 = new Array(1, 2, 3);
 
 // "Statements should end with semicolons"
-var z = 1;;
+let z = 1;;
 function foo() { };
 
 // "switch statements should have default clauses"
