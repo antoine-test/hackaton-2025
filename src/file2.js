@@ -1,4 +1,4 @@
-// "Arr {3}mutating methods should not be used misleadingly"
+// "Array-mutating methods should not be used misleadingly"
 const arr1 = [1, 2, 3];
 const arr2 = arr1.reverse();
 
@@ -57,11 +57,9 @@ const regex = /Hello,   world!/;
 // "If statements should not be the only statement in else blocks"
 if (a > 1) {
     console.log("a is greater than 1");
-} else {
-    if (a < 1) {
+} else if (a < 1) {
         console.log("a is less than 1");
     }
-}
 
 // "Unnecessary constructors should be removed"
 class MyClass {
