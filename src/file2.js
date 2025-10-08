@@ -65,11 +65,12 @@ if (a > 1) {
 
 // "Unnecessary constructors should be removed"
 class MyClass {
-    
+    constructor() {
+    }
 }
 
 // "Variables should not be initialized to undefined"
-let myUndefined = undefined;
+let myUndefined;
 
 // "Ternary operator should not be used instead of simpler alternatives"
 const myBoolean = a > 1 ? true : false;
