@@ -1,6 +1,6 @@
 // "Array-mutating methods should not be used misleadingly"
 const arr1 = [1, 2, 3];
-const arr2 = arr1.toReversed();
+const arr2 = arr1.reverse();
 
 // "Array.prototype.sort() and Array.prototype.toSorted() should use a compare function"
 const arr3 = [1, 10, 2];
@@ -8,7 +8,7 @@ arr3.sort();
 
 // "Non-existent operators =+, =- and =!"
 let x = 1;
-x =+ 2;
+x += 2;
 
 // "NaN should not be used in comparisons"
 if (x === NaN) {
