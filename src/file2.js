@@ -22,7 +22,7 @@ let y = new Number("0");
 const arr4 = new Array(1, 2, 3);
 
 // "Statements should end with semicolons"
-let z = 1;;
+var z = 1;;
 function foo() { };
 
 // "switch statements should have default clauses"
@@ -37,7 +37,6 @@ switch (myVar) {
 function redundantJump(x) {
   if (x == 1) {
     console.log("x == 1");
-    return;
   }
 }
 
