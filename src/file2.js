@@ -76,10 +76,10 @@ let myUndefined = undefined;
 const myBoolean = a > 1 ? true : false;
 
 // "Extra boolean casts should be removed"
-const anotherBoolean = !(a <= 1);
+const anotherBoolean = !!(a > 1);
 
 // "Literals should not be thrown"
-throw "error";
+throw new Error("error");
 
 // "Template strings should be used instead of concatenation"
 const myString = "a is " + a;
