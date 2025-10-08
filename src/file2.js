@@ -11,7 +11,7 @@ let x = 1;
 x =+ 2;
 
 // "NaN should not be used in comparisons"
-if (isNaN(x)) {
+if (Number.isNaN(x)) {
   console.log("x is NaN");
 }
 
